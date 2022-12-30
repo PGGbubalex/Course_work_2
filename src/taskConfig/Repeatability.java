@@ -13,9 +13,9 @@ public enum Repeatability {
         this.title = title;
     }
 
-    public static Repeatability findRepeatability(String title){
+    public static Repeatability findRepeatability(String title) {
         for (Repeatability repeatability : values()) {
-            if (repeatability.getTitle().equals(title)){
+            if (repeatability.getTitle().equals(title)) {
                 return repeatability;
             }
         }
